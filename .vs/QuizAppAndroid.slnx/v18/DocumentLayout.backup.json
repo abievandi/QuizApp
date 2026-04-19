@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,6 +41,14 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AuthenticationController.cs",
@@ -48,7 +56,7 @@
               "RelativeDocumentMoniker": "QuizAppAPI\\Controllers\\AuthenticationController.cs",
               "ToolTip": "C:\\Users\\Abie\\source\\repos\\QuizAppAndroid\\QuizAppAPI\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "QuizAppAPI\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-19T20:59:29.691Z",
               "EditorCaption": ""
@@ -63,8 +71,7 @@
               "RelativeToolTip": "QuizAppAndroid\\Models\\ProjectTask.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T20:51:25.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T20:51:25.328Z"
             },
             {
               "$type": "Document",
@@ -76,8 +83,7 @@
               "RelativeToolTip": "QuizAppAndroid\\Models\\Project.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T20:51:15.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T20:51:15.166Z"
             },
             {
               "$type": "Document",
@@ -89,8 +95,7 @@
               "RelativeToolTip": "QuizAppAndroid\\Models\\IconData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T20:51:12.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T20:51:12.822Z"
             },
             {
               "$type": "Document",
@@ -102,16 +107,7 @@
               "RelativeToolTip": "QuizAppAndroid\\Models\\Category.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T20:51:05.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2026-04-19T20:51:05.737Z"
             }
           ]
         }
