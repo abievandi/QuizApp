@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="QuizAppAndroid/QuizAppAndroid.csproj" />
+  <Project Path="QuizAppAPI/QuizAppAPI.csproj" Id="ca6fff4d-e5d4-4a7c-a79d-0f534102469d" />
 </Solution>

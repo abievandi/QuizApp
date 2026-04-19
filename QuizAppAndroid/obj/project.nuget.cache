@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6R2HL9xcvqU=",
+  "dgSpecHash": "oLUvSwZdb1A=",
   "success": true,
   "projectFilePath": "C:\\Users\\Abie\\source\\repos\\QuizAppAndroid\\QuizAppAndroid\\QuizAppAndroid.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,10 @@
     "C:\\Users\\Abie\\.nuget\\packages\\communitytoolkit.maui.core\\12.3.0\\communitytoolkit.maui.core.12.3.0.nupkg.sha512",
     "C:\\Users\\Abie\\.nuget\\packages\\communitytoolkit.mvvm\\8.3.2\\communitytoolkit.mvvm.8.3.2.nupkg.sha512",
     "C:\\Users\\Abie\\.nuget\\packages\\googlegson\\2.13.1.1\\googlegson.2.13.1.1.nupkg.sha512",
+    "C:\\Users\\Abie\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+    "C:\\Users\\Abie\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "C:\\Users\\Abie\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.3.9\\microsoft.aspnetcore.mvc.abstractions.2.3.9.nupkg.sha512",
+    "C:\\Users\\Abie\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.3.0\\microsoft.aspnetcore.routing.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\Abie\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.8\\microsoft.data.sqlite.core.8.0.8.nupkg.sha512",
     "C:\\Users\\Abie\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.0\\microsoft.extensions.configuration.10.0.0.nupkg.sha512",
     "C:\\Users\\Abie\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.0\\microsoft.extensions.configuration.abstractions.10.0.0.nupkg.sha512",
@@ -32,7 +36,8 @@
     "C:\\Users\\Abie\\.nuget\\packages\\microsoft.maui.graphics\\10.0.20\\microsoft.maui.graphics.10.0.20.nupkg.sha512",
     "C:\\Users\\Abie\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\10.0.20\\microsoft.maui.graphics.win2d.winui.desktop.10.0.20.nupkg.sha512",
     "C:\\Users\\Abie\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.20\\microsoft.maui.resizetizer.10.0.20.nupkg.sha512",
-    "C:\\Users\\Abie\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.5\\microsoft.net.illink.tasks.10.0.5.nupkg.sha512",
+    "C:\\Users\\Abie\\.nuget\\packages\\microsoft.net.http.headers\\2.3.8\\microsoft.net.http.headers.2.3.8.nupkg.sha512",
+    "C:\\Users\\Abie\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.6\\microsoft.net.illink.tasks.10.0.6.nupkg.sha512",
     "C:\\Users\\Abie\\.nuget\\packages\\microsoft.web.webview2\\1.0.3179.45\\microsoft.web.webview2.1.0.3179.45.nupkg.sha512",
     "C:\\Users\\Abie\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\Abie\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250909003\\microsoft.windowsappsdk.1.7.250909003.nupkg.sha512",

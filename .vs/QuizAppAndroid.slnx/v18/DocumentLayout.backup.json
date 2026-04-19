@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Abie\\source\\repos\\QuizAppAndroid\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA6FFF4D-E5D4-4A7C-A79D-0F534102469D}|QuizAppAPI\\QuizAppAPI.csproj|c:\\users\\abie\\source\\repos\\quizappandroid\\quizappapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6FFF4D-E5D4-4A7C-A79D-0F534102469D}|QuizAppAPI\\QuizAppAPI.csproj|solutionrelative:quizappapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5FF4119-098E-2741-1657-1A7052C0FDAE}|QuizAppAndroid\\QuizAppAndroid.csproj|c:\\users\\abie\\source\\repos\\quizappandroid\\quizappandroid\\models\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5FF4119-098E-2741-1657-1A7052C0FDAE}|QuizAppAndroid\\QuizAppAndroid.csproj|solutionrelative:quizappandroid\\models\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5FF4119-098E-2741-1657-1A7052C0FDAE}|QuizAppAndroid\\QuizAppAndroid.csproj|c:\\users\\abie\\source\\repos\\quizappandroid\\quizappandroid\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5FF4119-098E-2741-1657-1A7052C0FDAE}|QuizAppAndroid\\QuizAppAndroid.csproj|solutionrelative:quizappandroid\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5FF4119-098E-2741-1657-1A7052C0FDAE}|QuizAppAndroid\\QuizAppAndroid.csproj|c:\\users\\abie\\source\\repos\\quizappandroid\\quizappandroid\\models\\icondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5FF4119-098E-2741-1657-1A7052C0FDAE}|QuizAppAndroid\\QuizAppAndroid.csproj|solutionrelative:quizappandroid\\models\\icondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5FF4119-098E-2741-1657-1A7052C0FDAE}|QuizAppAndroid\\QuizAppAndroid.csproj|c:\\users\\abie\\source\\repos\\quizappandroid\\quizappandroid\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5FF4119-098E-2741-1657-1A7052C0FDAE}|QuizAppAndroid\\QuizAppAndroid.csproj|solutionrelative:quizappandroid\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\Abie\\source\\repos\\QuizAppAndroid\\QuizAppAPI\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "QuizAppAPI\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\Abie\\source\\repos\\QuizAppAndroid\\QuizAppAPI\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "QuizAppAPI\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T20:59:29.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectTask.cs",
+              "DocumentMoniker": "C:\\Users\\Abie\\source\\repos\\QuizAppAndroid\\QuizAppAndroid\\Models\\ProjectTask.cs",
+              "RelativeDocumentMoniker": "QuizAppAndroid\\Models\\ProjectTask.cs",
+              "ToolTip": "C:\\Users\\Abie\\source\\repos\\QuizAppAndroid\\QuizAppAndroid\\Models\\ProjectTask.cs",
+              "RelativeToolTip": "QuizAppAndroid\\Models\\ProjectTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T20:51:25.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\Abie\\source\\repos\\QuizAppAndroid\\QuizAppAndroid\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "QuizAppAndroid\\Models\\Project.cs",
+              "ToolTip": "C:\\Users\\Abie\\source\\repos\\QuizAppAndroid\\QuizAppAndroid\\Models\\Project.cs",
+              "RelativeToolTip": "QuizAppAndroid\\Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T20:51:15.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IconData.cs",
+              "DocumentMoniker": "C:\\Users\\Abie\\source\\repos\\QuizAppAndroid\\QuizAppAndroid\\Models\\IconData.cs",
+              "RelativeDocumentMoniker": "QuizAppAndroid\\Models\\IconData.cs",
+              "ToolTip": "C:\\Users\\Abie\\source\\repos\\QuizAppAndroid\\QuizAppAndroid\\Models\\IconData.cs",
+              "RelativeToolTip": "QuizAppAndroid\\Models\\IconData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T20:51:12.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Abie\\source\\repos\\QuizAppAndroid\\QuizAppAndroid\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "QuizAppAndroid\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Abie\\source\\repos\\QuizAppAndroid\\QuizAppAndroid\\Models\\Category.cs",
+              "RelativeToolTip": "QuizAppAndroid\\Models\\Category.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T20:51:05.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",

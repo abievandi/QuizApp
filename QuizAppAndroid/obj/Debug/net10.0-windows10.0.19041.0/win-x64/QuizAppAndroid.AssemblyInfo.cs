@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuizAppAndroid")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+bb9f0e7b59feb2fa462316d6932446f37c833698")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuizAppAndroid")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuizAppAndroid")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
