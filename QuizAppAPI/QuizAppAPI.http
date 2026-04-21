@@ -1,6 +1,64 @@
 @QuizAppAPI_HostAddress = http://localhost:5226
 
-GET {{QuizAppAPI_HostAddress}}/weatherforecast/
+### Get user profile
+GET {{QuizAppAPI_HostAddress}}/api/user/1
 Accept: application/json
+
+###
+
+### Get user stats
+GET {{QuizAppAPI_HostAddress}}/api/user/1/stats
+Accept: application/json
+
+###
+
+### Get quiz categories
+GET {{QuizAppAPI_HostAddress}}/api/quiz/categories
+Accept: application/json
+
+###
+
+### Get all quizzes
+GET {{QuizAppAPI_HostAddress}}/api/quiz
+Accept: application/json
+
+###
+
+### Get only Math quizzes
+GET {{QuizAppAPI_HostAddress}}/api/quiz?category=Math
+Accept: application/json
+
+###
+
+### Start quiz 1 as user 1 (free quiz)
+GET {{QuizAppAPI_HostAddress}}/api/quiz/1/start?userId=1
+Accept: application/json
+
+###
+
+### Try to start premium quiz 3 as free user 1 (should fail with 403)
+GET {{QuizAppAPI_HostAddress}}/api/quiz/3/start?userId=1
+Accept: application/json
+
+###
+
+### Start premium quiz 3 as premium user 2 (should work)
+GET {{QuizAppAPI_HostAddress}}/api/quiz/3/start?userId=2
+Accept: application/json
+
+###
+
+### Submit answers for quiz 1
+POST {{QuizAppAPI_HostAddress}}/api/quiz/1/submit
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "answers": [
+    { "questionId": 1, "selectedOption": "C" },
+    { "questionId": 2, "selectedOption": "A" },
+    { "questionId": 3, "selectedOption": "B" }
+  ]
+}
 
 ###
