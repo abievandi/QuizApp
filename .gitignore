@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+
+# Build folders
+bin/
+obj/
+
+# IDE folders
+.idea/
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+
+# Logs
+*.log
