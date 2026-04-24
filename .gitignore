@@ -1,6 +1,29 @@
+<<<<<<< HEAD
 ﻿.vs/
 bin/
 obj/
 node_modules/
 *.user
 *.suo
+=======
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+
+# Build folders
+bin/
+obj/
+
+# IDE folders
+.idea/
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+
+# Logs
+*.log
+>>>>>>> a62f5c58be44c0faec22b5c04fb4d10ccd771e20
