@@ -10,8 +10,14 @@ namespace CodeLingoAPI.Services
 
         public AIQuizService(IConfiguration config)
         {
-            apiKey = config["GeminiApiKey"] ?? "";
-        }
+            if (config["GeminiApiKey"] == null)
+                {
+                    apiKey = "";
+                 }
+            else
+                {
+                    apiKey = config["GeminiApiKey"];
+                }
         private readonly HttpClient _client = new HttpClient();
 
         public async Task<List<QuizQuestion>> GenerateQuizAsync(string topic, string difficulty = "medium")
@@ -52,11 +58,12 @@ Return ONLY a JSON array, no extra text, no markdown, in this exact format:
             aiReply = aiReply.Replace("```json", "").Replace("```", "").Trim();
 
             var questions = JsonSerializer.Deserialize<List<QuizQuestion>>(aiReply);
-            if (questions)
+            if (questions == null)
             {
                 return new List<QuizQuestion>();
             }
-            
+            return questions;
+}
         }
     }
 
