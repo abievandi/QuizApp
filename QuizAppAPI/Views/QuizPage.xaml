@@ -1,0 +1,34 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             x:Class="CodeLingoAPI.Views.QuizPage"
+             Title="Quiz">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <ProgressBar x:Name="QuizProgress" Progress="0"/>
+
+        <Label x:Name="TimerLabel"
+               Text="Time: 10"
+               FontSize="16"
+               TextColor="Red"/>
+
+        <Label x:Name="QuestionNumberLabel"
+               FontSize="18"
+               TextColor="Gray"/>
+
+        <Label x:Name="QuestionLabel"
+               FontSize="22"
+               FontAttributes="Bold"/>
+
+        <Button x:Name="OptionA" Clicked="OnOptionSelected" CornerRadius="10"/>
+        <Button x:Name="OptionB" Clicked="OnOptionSelected" CornerRadius="10"/>
+        <Button x:Name="OptionC" Clicked="OnOptionSelected" CornerRadius="10"/>
+        <Button x:Name="OptionD" Clicked="OnOptionSelected" CornerRadius="10"/>
+
+        <Button Text="Next"
+                Clicked="OnNextClicked"
+                BackgroundColor="Blue"
+                TextColor="White"/>
+
+    </VerticalStackLayout>
+
+</ContentPage>
