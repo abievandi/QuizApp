@@ -24,7 +24,7 @@ namespace CodeLingoAPI.Views
             InitializeComponent();
             timer = new System.Timers.Timer(1000);
             timer.Elapsed += OnTimerTick;
-            LoadQuestions();
+            _ = LoadQuestionsFromAPI();
         }
 
         void LoadQuestions()
@@ -71,7 +71,7 @@ namespace CodeLingoAPI.Views
             try
             {
                 var client = new HttpClient();
-                var json = await client.GetStringAsync("https://your-api-url/api/questions");
+                var json = await client.GetStringAsync("http://localhost:5000/api/quiz/questions");
                 questions = JsonSerializer.Deserialize<List<Question>>(json);
                 DisplayQuestion();
             }
