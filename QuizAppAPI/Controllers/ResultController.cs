@@ -1,10 +1,13 @@
-using Quiz.Models;
-using System.Collections.Generic;
-using System.Linq;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using CodeLingoAPI.Data;
+using CodeLingoAPI.Models;
 
-namespace Quiz.Controllers
+namespace CodeLingoAPI.Controllers
 {
-    public class ResultController
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ResultController : ControllerBase
     {
         private readonly AppDbContext _context;
 
@@ -13,35 +16,48 @@ namespace Quiz.Controllers
             _context = context;
         }
 
-        // ✅ Calculate Score
-        public int CalculateScore(int correctAnswers, int totalQuestions)
+        //  GET ALL RESULTS FOR A USER
+        [HttpGet("user/{userId}")]
+        public IActionResult GetUserResults(int userId)
         {
-            if (totalQuestions == 0) return 0;
-            return (correctAnswers * 100) / totalQuestions;
-        }
-
-        // ✅ Save Result
-        public void SaveResult(int userId, int quizItemId, int score)
-        {
-            var result = new Result
-            {
-                UserId = userId,
-                QuizItemId = quizItemId,
-                Score = score,
-                TakenAt = DateTime.UtcNow
-            };
-
-            _context.Results.Add(result);
-            _context.SaveChanges();
-        }
-
-        // ✅ Get Results by User (History Page)
-        public List<Result> GetResultsByUser(int userId)
-        {
-            return _context.Results
+            var results = _context.Results
+                .Include(r => r.Quiz)
                 .Where(r => r.UserId == userId)
-                .OrderByDescending(r => r.TakenAt)
+                .OrderByDescending(r => r.CompletedAt)
+                .Select(r => new
+                {
+                    r.ResultId,
+                    QuizTitle = r.Quiz.Title,
+                    r.Score,
+                    r.TotalQuestions,
+                    r.CorrectAnswers,
+                    r.CompletedAt
+                })
                 .ToList();
+
+            return Ok(results);
+        }
+
+        //  GET SINGLE RESULT DETAILS
+        [HttpGet("{resultId}")]
+        public IActionResult GetResult(int resultId)
+        {
+            var result = _context.Results
+                .Include(r => r.Quiz)
+                .FirstOrDefault(r => r.ResultId == resultId);
+
+            if (result == null)
+                return NotFound();
+
+            return Ok(new
+            {
+                result.ResultId,
+                QuizTitle = result.Quiz.Title,
+                result.Score,
+                result.TotalQuestions,
+                result.CorrectAnswers,
+                result.CompletedAt
+            });
         }
     }
 }

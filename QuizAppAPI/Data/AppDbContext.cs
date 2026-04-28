@@ -1,7 +1,19 @@
 using Microsoft.EntityFrameworkCore;
-using Quiz.Models;
+using CodeLingoAPI.Models;
 
-public class AppDbContext : DbContext
+namespace CodeLingoAPI.Data
 {
-    public DbSet<Result> Results { get; set; }
+    public class AppDbContext : DbContext
+    {
+        public AppDbContext(DbContextOptions<AppDbContext> options)
+            : base(options)
+        {
+        }
+
+        public DbSet<User> Users { get; set; }
+        public DbSet<Quiz> Quizzes { get; set; }
+        public DbSet<Question> Questions { get; set; }
+        public DbSet<Result> Results { get; set; }
+        public DbSet<Subscription> Subscriptions { get; set; }
+    }
 }

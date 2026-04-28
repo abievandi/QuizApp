@@ -1,41 +1,45 @@
-
 using Microsoft.EntityFrameworkCore;
+
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;   
-using System.Text;  
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using CodeLingoAPI.Data;
+using CodeLingoAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// 🔹 DATABASE (SQLite example)
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlite("Data Source=quizapp.db"));
 
-// 2. JWT Authentication
+// 🔹 AI SERVICE
+builder.Services.AddScoped<AIQuizService>();
+
+// 🔹 JWT AUTH
 var jwtKey = "CodeLingoSuperSecretKey2024!XYZ";
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(jwtKey)),
+            IssuerSigningKey =
+                new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey)),
             ValidateIssuer = false,
             ValidateAudience = false
         };
     });
 
-// 3. Controllers
+// 🔹 CONTROLLERS
 builder.Services.AddControllers();
 
-// ── Build the app 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-}
-
+// 🔹 MIDDLEWARE
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-app.Run();
 
 app.Run();
